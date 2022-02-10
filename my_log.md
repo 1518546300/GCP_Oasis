@@ -36,7 +36,7 @@ ___
 ## 2022_2_10
 * 解决问题
     1.不知道为啥，突然可以刷新物资了，有可能是昨天的代码没有成功编译吧。
-    ![avatar](./picture/2022_2_10_1.png)
-    ![avatar](./picture/2022_2_10_0.png)
+    ![avatar](picture/2022_2_10_1.png)
+    ![avatar](picture/2022_2_10_0.png)
     
     

@@ -50,4 +50,12 @@ ___
 *明日计划
     1.设计游戏流程逻辑
     2.怪物来回巡逻
+
+## 2022_2_13
+* 解决问题
+    1.昨天发现游戏无法添加level director，今天找到了解决的方法：
+        原因：myleveldirector虽然添加到了工程设置的模式编辑器主类，但是没有跟UDCGameMode添加关联
+        解决方法：编辑UDCGameMode，找到DataManager的data config配置myleveldirector为level director class。
+*心得
+    1.多看Log，这一次问题的解决主要是查看了服务器log，发现游戏的trigger使用的是错误的，这就让我怀疑是没有将myleveldirector与游戏mode成功关联。
     

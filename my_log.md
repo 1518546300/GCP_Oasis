@@ -1,4 +1,4 @@
-# Hello, World!
+<center/><font size=9><b>Hello, World!</b></font></center>
 ___
 
 ## 2022_2_7之前
@@ -54,8 +54,16 @@ ___
 ## 2022_2_13
 * 解决问题
     1.昨天发现游戏无法添加level director，今天找到了解决的方法：
-        原因：myleveldirector虽然添加到了工程设置的模式编辑器主类，但是没有跟UDCGameMode添加关联
-        解决方法：编辑UDCGameMode，找到DataManager的data config配置myleveldirector为level director class。
-*心得
+        &emsp;原因：myleveldirector虽然添加到了工程设置的模式编辑器主类，但是没有跟UDCGameModev添加关联
+        &emsp;解决方法：编辑UDCGameMode，找到DataManager的data config配置myleveldirector为level director class
+* 心得
     1.多看Log，这一次问题的解决主要是查看了服务器log，发现游戏的trigger使用的是错误的，这就让我怀疑是没有将myleveldirector与游戏mode成功关联。
+
+## 2022_2_14
+* 解决问题
+    1.添加ui并初始化
+* 计划
+    1.倒计时ui的实现
+    2.游戏流程在模式编辑器中的实现
+    3.吃透模板教学--制作一个简单的答题玩法
     

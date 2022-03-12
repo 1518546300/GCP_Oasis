@@ -41,10 +41,8 @@ ___
 ## 2022_2_10
 * 解决问题
     1.不知道为啥，突然可以刷新物资了，有可能是昨天的代码没有成功编译吧。
-    ![image](./picture/2022_2_10_1.png)
-    ![image](./picture/2022_2_10_0.png)
-    ![image](https://github.com/1518546300/GCP_Oasis/blob/master/picture/2022_2_10_1.png)
-    ![image](https://github.com/1518546300/GCP_Oasis/blob/master/picture/2022_2_10_0.png)
+    ![](https://github.com/1518546300/GCP_Oasis/blob/master/picture/2022_2_10_1.png)
+    ![](https://github.com/1518546300/GCP_Oasis/blob/master/picture/2022_2_10_0.png)
     2.成功添加宝箱，以及宝箱的物品配置
     3.怪物死亡掉落宝箱
 
@@ -138,5 +136,13 @@ ___
 ## 2022_3_10
 * 解决问题
     1. 添加毒圈
+* 计划
+    1.完善玩法
+
+## 2022_3_12
+* 解决问题
+    1. 添加毒圈，完善毒圈，两段收缩。
+    2. 灯光改成了自然光。点光源去掉了，这样可以节省很多计算资源消耗。
+    
 * 计划
     1.完善玩法
